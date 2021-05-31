@@ -2,21 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Dependencies :
--prettier
--husky
--lint-staged
--uuid
--gh-pages
--prop-types
-
-## Recomended npm-dependencies for React (they aren`t installed in this template, just FYI):
--react-icons;
--classnames;
--Formik;
--Yup;
--react-debounce-input;
-
 ## Available Scripts
 
 In the project directory, you can run:
