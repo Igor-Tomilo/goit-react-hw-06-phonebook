@@ -1,0 +1,40 @@
+.search__contact {
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 2px;
+}
+
+.search__contact {
+  padding: 5px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 400px;
+}
+
+.search__contact::before {
+  content: "";
+  height: 7px;
+  width: 7px;
+  background-color: rgb(2, 0, 0);
+  border-radius: 50%;
+  display: block;
+}
+
+.trash{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  transition: 0.5s linear;
+  
+}
+.trash:hover{
+cursor: pointer;
+background-color: yellow;
+transform: scale(1.2);
+}
+
